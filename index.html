@@ -42,6 +42,36 @@
     .status{
         text-align:center;
     }
+
+    /* ================= MOBILE RESPONSIVE ONLY ================= */
+
+/* Ensure tables scroll on small screens */
+.table-wrap {
+    max-width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* Prevent table from shrinking badly */
+table {
+    min-width: max-content;
+}
+
+/* Small screens adjustments */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    table {
+        font-size: 12px;   /* slightly smaller text */
+    }
+
+    th, td {
+        padding: 5px 6px; /* tighter spacing */
+    }
+}
+
 </style>
 
 <body>
@@ -52,24 +82,23 @@
 <tr>
     <th>Business Page - Web Site</th>
     <th>Live Status</th>
-    <th></th><th></th><th></th><th></th><th></th><th></th>
+    
 </tr>
-<tr><td>Home</td><td class="status">yes</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td></td><td>yes</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td>faq</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td>about us</td><td class="status">yes</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td>contact</td><td class="status">yes</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td>how it works</td><td class="status">yes</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td>Book now</td><td class="status">yes</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td>Track Order</td><td class="status">yes</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td>Blog</td><td class="status">yes</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td>pricing</td><td class="status">yes</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td>Service's - Darning & Repairs</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td>Service's - Dry cleaning</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td>Service's - Steam Ironing</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td>Service's - Shoe Cleaning</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td>Service's - Washing&Iron</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td>Service's - View all</td><td class="status">yes</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Home</td><td class="status">yes</td>
+<tr><td>faq</td><td></td>
+<tr><td>about us</td><td class="status">yes</td>
+<tr><td>contact</td><td class="status">yes</td>
+<tr><td>how it works</td><td class="status">yes</td>
+<tr><td>Book now</td><td class="status">yes</td>
+<tr><td>Track Order</td><td class="status">yes</td>
+<tr><td>Blog</td><td class="status">yes</td>
+<tr><td>pricing</td><td class="status">yes</td>
+<tr><td>Service's - Darning & Repairs</td><td></td>
+<tr><td>Service's - Dry cleaning</td><td>
+<tr><td>Service's - Steam Ironing</td><td>
+<tr><td>Service's - Shoe Cleaning</td><td>
+<tr><td>Service's - Washing&Iron</td><td></td>
+<tr><td>Service's - View all</td><td class="status">yes</td>
 </table>
 </div>
 
@@ -114,10 +143,12 @@ Business  Page</th>
         <td></td>
         <td></td>
         <td></td>
+        <td></td>
     </tr>
 
     <tr>
         <td>Not Working</td>
+        <td>Yes</td>
         <td>Yes</td>
         <td>Yes</td>
         <td>Yes</td>
@@ -154,7 +185,7 @@ Business  Page</th>
     </tr>
 
     <td>Not Working</td>
-    <td></td><td></td><td></td><td></td><td></td>
+    <td></td><td></td><td></td><td></td><td></td><td></td><td></td>
 </tr>
 </table>
 </div>
@@ -257,26 +288,26 @@ Business  Page</th>
     <tr>
         <th>Page - WPA</th>
         <th></th>
-        <th></th><th></th><th></th><th></th><th></th><th></th>
+
     </tr>
 
-    <tr><td>Home</td><td class="status">yes</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-    <tr><td>faq</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-    <tr><td>about us</td><td class="status">yes</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-    <tr><td>contact</td><td class="status">yes</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-    <tr><td>how it works</td><td class="status">yes</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-    <tr><td>Book now</td><td class="status">yes</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-    <tr><td>Track Order</td><td class="status">yes</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-    <tr><td>Blog</td><td class="status">yes</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-    <tr><td>pricing</td><td class="status">yes</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>Home</td><td class="status">yes</td>
+    <tr><td>faq</td><td></td>
+    <tr><td>about us</td><td class="status">yes</td>
+    <tr><td>contact</td><td class="status">yes</td>
+    <tr><td>how it works</td><td class="status">yes</td>    
+    <tr><td>Book now</td><td class="status">yes</td>
+    <tr><td>Track Order</td><td class="status">yes</td>
+    <tr><td>Blog</td><td class="status">yes</td>
+    <tr><td>pricing</td><td class="status">yes</td>
 
-    <tr><td>Service's - Darning & Repairs</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-    <tr><td>Service's - Dry cleaning</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-    <tr><td>Service's - Steam Ironing</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-    <tr><td>Service's - Shoe Cleaning</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-    <tr><td>Service's - Washing&Iron</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>Service's - Darning & Repairs</td><td></td>
+    <tr><td>Service's - Dry cleaning</td><td></td>
+    <tr><td>Service's - Steam Ironing</td><td></td>
+    <tr><td>Service's - Shoe Cleaning</td><td></td>
+    <tr><td>Service's - Washing&Iron</td><td></td>
 
-    <tr><td>Service's - View all</td><td class="status">yes</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>Service's - View all</td><td class="status">yes</td>
 </table>
 </div>
 
